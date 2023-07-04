@@ -37,3 +37,47 @@ a {
   .header:not(:hover) {
     opacity: 0; /* Set the opacity to 0 when not hovered over */
   }
+
+  /************* Styling the `Hero` section  *************/
+#home {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 40px;
+    border: 1px ridge #FFE694 ;
+    border-radius: .5px;
+    display: block;
+    position: relative;
+    top: 20px;
+}
+
+.hero-section {
+    margin: 15vh auto 40vh  ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+
+}
+.hero-section-image , .hero-section-text {
+    display: inline-block;
+    flex: 1;
+
+}
+
+.hero-section-text h2 {
+    font-size: 60px;
+    margin:80px auto;
+    font-weight:100px;
+}
+
+.hero-section-text p {
+    font-size: 32px;
+    margin:60px auto;
+    font-weight: 400;
+    word-wrap: normal;
+}
+.hero-section-image img {
+    max-width: 100%;
+    max-height: 100vh;
+
+}
