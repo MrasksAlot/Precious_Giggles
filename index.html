@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precious Giggles Studio</title>
+    <link rel="stylesheet" href="style-PG.css">
+    
+</head>
+
+<body>
+
+    <!-- header is fixed -->
+    <div class="header">
+        <span class="nav-header" id="studio-name"> <a href="#home">Precious Giggles</a></span>
+        <span class="nav-header"> <a href="#gallary">Portfolio</a></span>
+        <span class="nav-header"> <a href="#reviews">Reviews</a></span>
+        <span class="nav-header"> <a href="#focus-point">Capture A Memory Now</a></span>
+    </div>
+
+<!-- first page contains the `Hero section` and the `Gallary` -->
+    <h1 id="home">Precious Giggles Photography</h1>
+    <div class="hero-section" >
+        <div class="hero-section-text">
+            <h2>Capturing Moments, Creating Memories</h2>
+            <p>At Precious Giggles, we specialize in turning fleeting moments into cherished memories. Our heartfelt services revolve around capturing the joy and innocence of childhood, preserving them forever.</p>
+        </div>
+
+            <figure class="hero-section-image">
+                <img src="./images/ph3.jpeg" alt="Beautiful smiling baby">
+              </figure>
+    </div>
+
+    <div class="gallary-container" id="gallary">
+
+        <div class="sub-container sc1">
+            <img src="./images/boy1.jpg" >
+            <img src="./images/ph1.webp" >
+            <img src="./images/ph2.webp" >
+        </div>
+        
+        <div class="sub-container sc2">
+            <img src="./images/girl3.jpeg">
+            <img src="./images/girl2.jpg" >
+            <img src="./images/girl1.jpg" >
+        </div>
+        
+        <div class="sub-container sc3">
+            <img src="./images/boy2.jpg" >
+            <img src="./images/boy3.jpg" >
+            <img src="./images/kbd2.webp" >
+        </div>
+
+    </div>
+
+    <!-- second page contains `Testimonials` and `Book a photoshoot` sections -->
+<div class="testimonial-container" >
+    <h3 id="reviews">Our Reviews<span>&#10084</span></h3>
+  <div class="testimonial-slide">
+    <p class="testimonial-quote">My precious Mike was 3 weeks old when I thought about the photoshoot. After seeing the results, my only regret is not capturing his first days. My heart warms every time I look at his photos.</p>
+
+    <p class="testimonial-author">Jennifer S., overjoyed parent</p>
+  </div>
+
+  <div class="testimonial-slide" >
+    <p class="testimonial-quote">Precious Giggles transformed my Lily's special day into an extraordinary celebration. Their attention to detail and ability to capture joy is simply remarkable! I can't wait to show the photos to my parents.</p>
+    <p class="testimonial-author">David R., thrilled parent</p>
+  </div>
+
+  <div class="testimonial-slide">
+    <p class="testimonial-quote">They grow up so fast. If I could choose, I would live these years forever. It's such a blessing to be able to capture how I feel and how my little girl looks forever. I'm planning from now to use the photos in her wedding 20+ years from now.</p>
+    <p class="testimonial-author">Amanda M., grateful parent</p>
+  </div>
+
+<div class="testimonial-slide">
+    <p class="testimonial-quote">Every photo taken by Precious Giggles is a masterpiece that tells a story. They captured the essence of our family in a way that words can't express. Looking at the photos, we relive those precious moments over and over again.</p>
+    <p class="testimonial-author">Sarah B., grateful parent</p>
+  </div>
+
+  <div class="testimonial-slide">
+    <p class="testimonial-quote">Precious Giggles turned our son's first birthday into a magical experience. Their talent and creativity exceeded our expectations. The photos are a treasure that we will cherish forever, reminding us of the joy and laughter shared on that special day.</p>
+    <p class="testimonial-author">Mark D., delighted parent</p>
+  </div>
+
+  <div class="testimonial-slide">
+    <p class="testimonial-quote">Words cannot describe the emotions that fill our hearts when we see the photos captured by Precious Giggles. They have an incredible ability to freeze time and capture the genuine love and connection between family members. These photos are priceless treasures.</p>
+    <p class="testimonial-author">Emily L., amazed parent</p>
+  </div>
+
+  <div class="testimonial-slide">
+    <p class="testimonial-quote">Choosing Precious Giggles for our daughter's first day of school photoshoot was the best decision we made. They created a relaxed and fun atmosphere, allowing our daughter's true personality to shine. The photos are a beautiful reflection of her excitement and anticipation.</p>
+    <p class="testimonial-author">Michael W., proud parent</p>
+  </div>
+      
+  <div class="testimonial-controls">
+    <button class="testimonial-prev">&#8249;</button>
+    <button class="testimonial-next">&#8250;</button>
+  </div>
+</div>
+
+<!-- Book an Appointment section -->
+<section id="booking-section">
+    <h2 id="focus-point">Let's create a memory together!</h2>
+    <form id="contact-form">
+      <label for="month">What month suits you the best?</label>
+      <select id="month" name="month">
+        <option value="" selected disabled></option>
+        <option value="January">January</option>
+        <option value="February">February</option>
+        <option value="March">March</option>
+        <option value="April">April</option>
+        <option value="May">May</option>
+        <option value="June">June</option>
+        <option value="July">July</option>
+        <option value="August">August</option>
+        <option value="September">September</option>
+        <option value="October">October</option>
+        <option value="November">November</option>
+        <option value="December">December</option>
+      </select>
+  
+      <label for="phone">Your Phone Number</label>
+      <input type="tel" id="phone" name="phone" required>
+  
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" required>
+  
+      <p class="note">Feel free to contact us for any inquiries [Email:  hazemkhaled.work@gmail.com]. We are always glad to help.</p>
+  
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+  
+      <script src="script.js"></script>
+</body>
+
+</html>
