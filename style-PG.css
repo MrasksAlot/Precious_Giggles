@@ -163,8 +163,9 @@ color: red;
   .testimonial-prev,
   .testimonial-next {
     padding: 5px 20px;
-    font-size: 40px;
+    font-size: 30px;
     cursor:pointer;
+    border: 1.5px double black;
   }
   
 /************* Styling Contact us section  *************/
