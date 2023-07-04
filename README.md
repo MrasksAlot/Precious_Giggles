@@ -1,4 +1,6 @@
-# Precious_Giggles_Landing-Page 
+# Precious_Giggles_Landing-Page    
+[Live-Link](https://mrasksalot.github.io/Precious_Giggles/)
+
 
 ## This is the second project in The odin project , i didn't follow the odin's model fully and i didn't put much time into the fonts but i learned alot doing it
 
@@ -9,4 +11,6 @@
 - The slide show idea which was used in the testimonials' section 
 - get comfortable with commiting via VSC for better commit description 
 - Deployed and debugged the site multiple times before commiting, hence i didn't make as many errors in the commits as i used to do
-- learned abit about the UI  
+- learned a bit about the UI design
+
+#### Note : The design is not responsive yet , i haven't grasped the media query part yet and i will come back to fix it once i do  
