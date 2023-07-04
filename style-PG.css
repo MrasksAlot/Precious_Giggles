@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+/************* Styling the `Header` section  *************/
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FFDFCA;
+    z-index: 9999;
+    font-size: 26px;
+    font-weight: 800;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px ;
+    flex-wrap: wrap;
+    transition: opacity 0.5s ease-in-out; /* Add a transition for smooth appearance */
+    opacity: 1; /*  initial opacity set to 1 */
+  }
+  .nav-header {
+    margin-right: 10px;
+  }
+  .header:hover {
+    opacity: 1; /* Ensure the header is fully visible when hovered over */
+  }
+  
+  .header:not(:hover) {
+    opacity: 0; /* Set the opacity to 0 when not hovered over */
+  }
